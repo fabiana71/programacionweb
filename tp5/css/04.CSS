@@ -1,0 +1,18 @@
+#origen{
+    color: green;
+}
+#cascada{
+    color: red;
+}
+#cascada{
+    color: blueviolet;
+}
+div{
+    color: yellow !important;
+}
+.especifidad{
+    color: blue;
+}
+div#especifidad{
+    color:orange;
+}

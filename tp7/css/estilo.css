@@ -1,0 +1,71 @@
+body{
+    background-color: blue;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#contenedor{
+    background-color: white;
+    width: 60%;
+    margin: 0 auto;
+    min-height: 100vh;
+}
+header h1{
+    margin: 0;
+}
+nav{
+    background-color: gray;
+    padding: 16px;
+    box-sizing: border-box;
+    color: white;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+}
+form{
+    padding: 25px;
+}
+form span{
+    font-weight: 600;
+    display: block;
+    margin-bottom: 16px;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+form input{
+    display: block;
+    padding: 5px;
+    border-radius: 7px;
+    border: solid 3px blue;
+    transition:  0.3s;
+    margin-bottom: 16px;
+}
+form input:focus{
+    background-color: lightgray;
+}
+form span.genero label,form span.genero input{
+    display: inline;
+}
+form span.cursos label,form span.cursos input{
+    display: inline;
+}
+form select{
+    margin-bottom: 16px;
+}
+form button{
+    display: block;
+    padding: 7px;
+    margin-top: 16px;
+    background-color: blue;
+    color: aqua;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 7px;
+    border: 0;
+}
+form textarea{
+    display: block;
+}
