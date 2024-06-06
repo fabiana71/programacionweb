@@ -18,6 +18,8 @@ header{
 }
 nav{
     background-color: #424242;
+    position: sticky;
+    top: 0;
 }
 nav a{
     padding: 1em;
@@ -48,6 +50,8 @@ footer{
     opacity: 0.4;
     transition: 1s;
     background-color: white;
+    color: black;
+    text-decoration: none;
 
 }
 #subir:hover{
@@ -60,7 +64,17 @@ footer{
 #galeria div{
     display: inline-block;
     width: 20%;
+    padding: 0.5rem;
+    box-sizing: border-box;
 }
 #galeria div img{
     width: 100%;
+}
+#galeria div img:hover{
+    transform: scale(155%);
+    cursor: pointer;
+    border: 6px solid white;
+    border-bottom: 12px solid white;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 15px black;
 }
